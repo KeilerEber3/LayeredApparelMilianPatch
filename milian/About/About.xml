@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>LayeredApparelMilianPatch</name>
+	<author>Tsubiki</author>
+	<supportedVersions>
+		<li>1.6</li>
+	</supportedVersions>
+	<description>The sky elves Milira.</description>
+	<packageId>Tsubiki.LayeredApparelMilianPatch</packageId>
+	<modDependencies>
+		<li> 
+			<packageId>Ancot.MiliraRace</packageId>
+			<displayName>Milira Race</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=3632480044</steamWorkshopUrl>
+		</li>
+		<li> 
+			<packageId>costel.layeredapparel</packageId>
+			<displayName>Layered Apparel</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=3256974620</steamWorkshopUrl>
+		</li>
+	</modDependencies>
+	<loadAfter>	
+		<li>Ancot.MiliraRace</li>
+		<li>costel.layeredapparel</li>
+	</loadAfter>
+</ModMetaData>
